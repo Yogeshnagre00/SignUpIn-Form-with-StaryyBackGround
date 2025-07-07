@@ -237,7 +237,7 @@ body {
   background-size: cover;
 }
 .logo p {
-  color: #666;
+  color: #a7a7a7;
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -283,12 +283,16 @@ body {
 }
 .form-group label {
   position: absolute;
+  color: #666;
   top: 15px;
   left: 15px;
-  color: #666;
   pointer-events: none;
   font-size: 14px;
   transition: all 0.3s ease;
+}
+#rememberLabel{
+  color: white;
+  font-size: 14px;
 }
 .form-group input:focus + label,
 .form-group input:not(:placeholder-shown) + label {

@@ -37,5 +37,5 @@ function createShootingStar() {
 
 // Initialize stars
 createStars();
-// Create shooting stars at intervals
-setInterval(createShootingStar, 4000);
+// // Create shooting stars at intervals
+// setInterval(createShootingStar, 4000);
